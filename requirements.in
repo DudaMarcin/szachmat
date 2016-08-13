@@ -5,4 +5,5 @@ https://control.aldryn.com/api/v1/apps/serve/aldryn-sso/1.1.3/905f9768-5a25-42f0
 https://control.aldryn.com/api/v1/apps/serve/aldryn-django-cms/3.3.2.2/60e9fd39-d543-49d1-b43c-84b07a319bbf/aldryn-django-cms-3.3.2.2.tar.gz#egg=aldryn-django-cms==3.3.2.2
 https://control.aldryn.com/api/v1/apps/serve/aldryn-devsync/1.1.0/ee6faba8-7ab7-4ba7-8ee1-44013beb6fef/aldryn-devsync-1.1.0.tar.gz#egg=aldryn-devsync==1.1.0
 https://control.aldryn.com/api/v1/apps/serve/aldryn-bootstrap3/1.1.1/94067d87-ce6e-4187-809b-cbd174161d63/aldryn-bootstrap3-1.1.1.tar.gz#egg=aldryn-bootstrap3==1.1.1.0
+https://control.aldryn.com/api/v1/apps/serve/aldryn-newsblog/1.2.4.1/8354bba2-c634-4a1e-8a6e-9af0e1941872/aldryn-newsblog-1.2.4.1.tar.gz#egg=aldryn-newsblog==1.2.4.1
 # </INSTALLED_ADDONS>
