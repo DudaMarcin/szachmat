@@ -11,6 +11,7 @@ INSTALLED_ADDONS = [
     'aldryn-bootstrap3',
     'aldryn-forms',
     'aldryn-newsblog',
+    'aldryn-style',
     'aldryn-video',
     # </INSTALLED_ADDONS>
 ]
