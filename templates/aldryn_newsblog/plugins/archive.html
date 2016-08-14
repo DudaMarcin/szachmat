@@ -15,7 +15,7 @@
                                 {{ month.date|date:"F" }} <span>{{ month.num_articles }}</span>
                                 Hi ho
                                 {% for article in month.articles %}
-                                  <span> {article.name} Hi</span>
+                                  <span> {{article.name}} Hi</span>
                                 {% endfor %}
                         </a>
                     </li>
