@@ -14,7 +14,7 @@
                             {% if year.grouper == current_year and month.date.month == current_month %} class="active"{% endif %}>
                                 {{ month.date|date:"F" }} <span>{{ month.num_articles }}</span>
                                 {% for article in month.articles %}
-                                  <span> {article.name} </span>
+                                  <span> {article.name} Hi</span>
                                 {% endfor %}
                         </a>
                     </li>
