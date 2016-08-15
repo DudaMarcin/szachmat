@@ -26,9 +26,8 @@
         {% else %}
             {% render_model article "title" %}
         {% endif %}
+        <p>{{ article.publishing_date|date }}</p>
     </h2>
-
-    <p>{{ article.publishing_date|date }}</p>
 
     {% render_model article "lead_in" %}
 
