@@ -27,6 +27,7 @@
         {% endif %}
 
     {% render_model article "lead_in" %}
+    {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
 
     {% if detail_view %}
         {% render_placeholder article.content language placeholder_language %}
