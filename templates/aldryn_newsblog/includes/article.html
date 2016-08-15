@@ -30,8 +30,6 @@
 
     <p>{{ article.publishing_date|date }}</p>
 
-    {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
-
     {% render_model article "lead_in" %}
 
     {% if detail_view %}
