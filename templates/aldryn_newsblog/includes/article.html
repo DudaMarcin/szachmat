@@ -26,8 +26,7 @@
             <h2>{% render_model article "title" %}</h2>{{ article.publishing_date|date }}
         {% endif %}
 
-    {% render_model article "lead_in" %}
-    <h6>{% include "aldryn_newsblog/includes/author.html" with author=article.author %}</h6>
+    {% render_model article "lead_in" %}<h6>{% include "aldryn_newsblog/includes/author.html" with author=article.author %}</h6>
 
     {% if detail_view %}
         {% render_placeholder article.content language placeholder_language %}
