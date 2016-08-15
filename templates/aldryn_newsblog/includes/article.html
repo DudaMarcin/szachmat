@@ -27,7 +27,7 @@
         {% endif %}
 
     {% render_model article "lead_in" %}
-    <h1>{% include "aldryn_newsblog/includes/author.html" with author=article.author %}</h1>
+    <h6>{% include "aldryn_newsblog/includes/author.html" with author=article.author %}</h6>
 
     {% if detail_view %}
         {% render_placeholder article.content language placeholder_language %}
