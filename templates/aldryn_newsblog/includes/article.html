@@ -25,6 +25,7 @@
         {% else %}
             <h2>{% render_model article "title" %}</h2>{{ article.publishing_date|date }}
         {% endif %}
+        {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
 
     {% render_model article "lead_in" %}
 
