@@ -21,11 +21,10 @@
     {% endif %}
 
         {% if not detail_view %}
-            <h2><a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">{% render_model article "title" %}</h2></a>{{ article.publishing_date|date }}
+            <h2><a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">{% render_model article "title" %}</h2></a>{{ article.publishing_date|date }}{% include "aldryn_newsblog/includes/author.html" with author=article.author %}
         {% else %}
-            <h2>{% render_model article "title" %}</h2>{{ article.publishing_date|date }}
+            <h2>{% render_model article "title" %}</h2>{{ article.publishing_date|date }}{% include "aldryn_newsblog/includes/author.html" with author=article.author %}
         {% endif %}
-        {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
 
     {% render_model article "lead_in" %}
 
