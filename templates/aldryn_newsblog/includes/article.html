@@ -12,7 +12,6 @@
             <h2>{% render_model article "title" %}</h2>{{ article.publishing_date|date }}
         {% endif %}
 
-    <hr>
     {% render_model article "lead_in" %}
     <h6>
       {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
