@@ -1,5 +1,6 @@
 {% load i18n apphooks_config_tags %}
 
+<h4>Kategorie zadań</h4>
 <ul>
     {% for category in categories %}
         <li{% if newsblog_category.id == category.id %} class="active"{% endif %}>
